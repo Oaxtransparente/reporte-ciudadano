@@ -23,13 +23,12 @@
   height: auto !important;
   height: 100%;
   /* Negative indent footer by its height */
-  margin: 0 auto -100px;
+  margin: 0 auto -340px;
   /* Pad bottom by footer height */
-  padding: 0 0 100px;
+  padding: 0 0 340px;
 }
 
 #wrap > .container {
-  padding: 70px 15px 0px;
 }
 
 #page-content-wrapper > .container {
@@ -37,11 +36,51 @@
 }
 
 #footer {
-  height: 100px;
+  height: 340px;
   background-color: #303030;
   color: #FFF;
+  padding-top: 40px;
+  font-family: Arial, sans-serif;
+  font-size: 12px;
 
-  .footer-logo {
-    margin: 0 auto;
+  a {
+    color: #fff;
   }
+
+  .main-logo {
+    padding: 10px 0;
+    height: 80px;
+  }
+
+  .partner-logo {
+    padding-top: 6px;
+    padding-right: 12px;
+    height: 40px;
+  }
+
+  .large-font {
+    font-weight: 800;
+    font-size: 21px;
+    font-family: Arial, sans-serif;
+  }
+
+  .x-large-font {
+    font-size: 36px;
+    font-weight: 500;
+  }
+
+
 }
+
+.logos-header {
+  padding: 70px 15px 0px;
+  margin-bottom: 40px;
+
+  .logo {
+    max-height: 80px;
+    margin-right: 10px;
+  }
+
+}
+
+

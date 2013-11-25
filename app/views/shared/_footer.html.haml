@@ -1,2 +1,24 @@
 #footer
-  = image_tag "logo_codeando-footer.png", class: 'footer-logo img-responsive'
+  .container
+    .row
+      .col-md-6
+        %p
+          Ésta es una plataforma de transparencia de tercera generación que promueve 
+          la colaboración
+          %span.large-font gobierno-sociedad
+          desarrollada para el Gobierno del Estado de Oaxaca por:
+        = link_to image_tag("logo_codeando-w.png", class: 'main-logo'), 'http://www.codeandomexico.org'
+        %p en el marco del <b>Programa de Capacitación para Mejorar la Transparencia y Rendición de Cuentas en el Sector Agua y Saneamiento en el Estado de Oaxaca</b> 2011-2013 <a href="http://www.oaxtransparente.oaxaca.gob.mx/agua">www.oaxtransparente.oaxaca.gob.mx/agua</a>
+        = link_to image_tag("bm.png", class: 'partner-logo'), 'http://www.bancomundial.org/'
+        = link_to image_tag("tm.png", class: 'partner-logo'), 'http://www.tm.org.mx'
+        = link_to image_tag("pnud.png", class: 'partner-logo'), 'http://www.undp.org/content/undp/es/home.html'
+        = link_to image_tag("goboax.png", class: 'partner-logo'), 'http://www.oaxaca.gob.mx/'
+        = link_to image_tag("bienestar.png", class: 'partner-logo'), 'http://www.oaxaca.gob.mx/'
+        = link_to image_tag("ot.png", class: 'partner-logo'), 'http://www.oaxtransparente.gob.mx'
+      .col-md-4.col-md-offset-2
+        %h2.large-font ADOSAPACO
+        %p.address
+          Calle Manuel Sabino Crespo # 509 Col. Centro,
+          Oaxaca de Juárez, Oax., CP, 68000
+        %h3.large-font Línea gratuita Adosapaco
+        %h1.x-large-font 01800 0101050
