@@ -29,6 +29,11 @@
 }
 
 #wrap > .container {
+  padding-top: 150px;
+}
+
+.l-slogan-container-bottom {
+  padding-top: 180px;
 }
 
 #page-content-wrapper > .container {
@@ -73,11 +78,10 @@
 }
 
 .logos-header {
-  padding: 70px 15px 0px;
-  margin-bottom: 40px;
+  padding: 10px 45px 0px;
 
   .logo {
-    max-height: 80px;
+    max-height: 60px;
     margin-right: 10px;
   }
 

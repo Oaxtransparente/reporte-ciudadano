@@ -1,4 +1,5 @@
-.row.reports-stats{data: { total: ServiceRequest.count } }
+= render "shared/adosapaco_slogan"
+.row.reports-stats.l-slogan-container-bottom{data: { total: ServiceRequest.count } }
   .col-md-4.col-sm-4.col-xs-4.reports-stats-block
     = @all_service_requests
     %h3.reports-stats-name= t('dashboards.total_requests')

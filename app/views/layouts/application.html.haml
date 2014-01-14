@@ -22,7 +22,6 @@
     #wrap
 
       = render "shared/header"
-      = render "shared/adosapaco_header"
       .container
         - flash.each do |name, msg|
           = content_tag :div, :class => "alert #{flash_class(name)}" do
