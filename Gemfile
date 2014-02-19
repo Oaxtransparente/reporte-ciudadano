@@ -29,6 +29,7 @@ gem 'ransack'
 gem 'figaro'
 gem 'active_model_serializers'
 gem 'coveralls', require: false
+gem 'newrelic_rpm'
 
 # Async backgroun job handling
 gem 'sidekiq'
