@@ -34,11 +34,7 @@ ReporteCiudadano::Application.routes.draw do
         get 'dashboard'
       end
     end
-    resources :dashboards, only: [:index] do
-      collection do
-        get 'design'
-      end
-    end
+    resources :dashboards, only: [:index]
 
     resources :logos, except: :index do
       collection do
